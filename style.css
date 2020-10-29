@@ -1,0 +1,162 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("afterhours1.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Limelight', cursive;
+	color: rgb(255, 227, 161);
+	font-size: 10vw;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+
+h2 {
+	font-family: 'Limelight', cursive;
+	color: rgb(255, 227, 161);
+	font-size: 8vw;
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+
+.date {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 25px;
+	top: 600px;
+	left: 50px;
+}
+
+.time {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 25px;
+	top: 640px;
+	left: 50px;
+}
+
+.location {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 25px;
+	top: 600px;
+	left: 1000px;
+}
+
+.address {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 25px;
+	top: 640px;
+	left: 1000px;
+}
+
+.state {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 25px;
+	top: 680px;
+	left: 1000px;
+}
+
+.tickets {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 25px;
+	top: 680px;
+	left: 50px;
+}
+
+@media (max-width: 375px) {
+	h1 {
+		color: rgb(242, 0, 0);
+		font-size: 70px;
+		line-height: 1000px
+		top: 0px;
+		left: 30px;
+	}
+
+	.background {
+	background-image: url("afterhours4.gif");
+	}
+
+	h2 {
+		color: rgb(242, 0, 0);
+		font-size: 40px;
+		position: absolute;
+		top: 180px;
+		left: 30px;
+	}
+
+	.date {
+		position: absolute;
+		font-family: 'Josefin Sans', sans-serif;
+		color: rgb(255, 227, 161);
+		font-size: 20px;
+		top: 600px;
+		left: 30px;
+	}
+
+	.time {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 20px;
+	top: 620px;
+	left: 30px;
+	}
+
+	.tickets2 {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 20px;
+	top: 640px;
+	left: 30px;
+	}
+
+	.location2 {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 20px;
+	top: 600px;
+	left: 230px;
+	}
+
+	.address2 {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 20px;
+	top: 620px;
+	left: 230px;
+	}
+
+	.state2 {
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 227, 161);
+	font-size: 20px;
+	top: 640px;
+	left: 230px;
+	}
+
+
+}
+
