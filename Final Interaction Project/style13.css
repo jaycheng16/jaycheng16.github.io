@@ -1,0 +1,34 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(0, 0, 0);
+	background-size: cover;
+	background-position: center;
+}
+
+.songtitle {
+	position: absolute;
+	font-family: 'Cinzel', serif;
+	font-size: 90px;
+	color: rgb(219, 0, 0);
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+.video {
+	position: absolute;
+	top: 300px;
+	left: 430px;
+}
+
+.back {
+	position: absolute;
+	top: 600px;
+	left: 630px;
+	height: 50px;
+	width: 150px;
+}
